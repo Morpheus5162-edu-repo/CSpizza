@@ -248,6 +248,7 @@ namespace CSpizza
             this.Controls.Add(this.LblPrice);
             this.Controls.Add(this.GbIngredients);
             this.Controls.Add(this.GbPizza);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "Pizza";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Pizza";
